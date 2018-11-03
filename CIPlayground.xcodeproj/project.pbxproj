@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2FF2064B6E04685CB25F081C /* Pods_CIPlaygroundTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D5B40A88546B0E043D219A6 /* Pods_CIPlaygroundTests.framework */; };
+		7492713A48A6E1BDECC6D3C8 /* Pods_CIPlayground.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 345FA624B94922AD1DB44E3C /* Pods_CIPlayground.framework */; };
+		955FE2ADDAC2E4E97646BF62 /* Pods_CIPlaygroundUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 553F8BB0942B33026D1EBDE7 /* Pods_CIPlaygroundUITests.framework */; };
 		FF9BBA17218E1A45004C8939 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF9BBA16218E1A45004C8939 /* AppDelegate.swift */; };
 		FF9BBA19218E1A45004C8939 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF9BBA18218E1A45004C8939 /* ViewController.swift */; };
 		FF9BBA1C218E1A45004C8939 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF9BBA1A218E1A45004C8939 /* Main.storyboard */; };
@@ -34,6 +37,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		12D22704227DEB52A2AF6478 /* Pods-CIPlayground.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CIPlayground.release.xcconfig"; path = "Pods/Target Support Files/Pods-CIPlayground/Pods-CIPlayground.release.xcconfig"; sourceTree = "<group>"; };
+		2D35407BE1CBCDB9E64A0347 /* Pods-CIPlaygroundTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CIPlaygroundTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-CIPlaygroundTests/Pods-CIPlaygroundTests.release.xcconfig"; sourceTree = "<group>"; };
+		345FA624B94922AD1DB44E3C /* Pods_CIPlayground.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CIPlayground.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		553F8BB0942B33026D1EBDE7 /* Pods_CIPlaygroundUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CIPlaygroundUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A3DBE48E5C2EC2DDC41DD87 /* Pods-CIPlaygroundUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CIPlaygroundUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-CIPlaygroundUITests/Pods-CIPlaygroundUITests.release.xcconfig"; sourceTree = "<group>"; };
+		6D5B40A88546B0E043D219A6 /* Pods_CIPlaygroundTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CIPlaygroundTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8492E1A74D7D389E9925E587 /* Pods-CIPlaygroundTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CIPlaygroundTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CIPlaygroundTests/Pods-CIPlaygroundTests.debug.xcconfig"; sourceTree = "<group>"; };
+		95BBF5F28FE4603F8598828D /* Pods-CIPlayground.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CIPlayground.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CIPlayground/Pods-CIPlayground.debug.xcconfig"; sourceTree = "<group>"; };
+		D119D8D8B6A85047A1F15BE0 /* Pods-CIPlaygroundUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CIPlaygroundUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CIPlaygroundUITests/Pods-CIPlaygroundUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		FF9BBA13218E1A45004C8939 /* CIPlayground.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CIPlayground.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FF9BBA16218E1A45004C8939 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FF9BBA18218E1A45004C8939 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -54,6 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7492713A48A6E1BDECC6D3C8 /* Pods_CIPlayground.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2FF2064B6E04685CB25F081C /* Pods_CIPlaygroundTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,12 +82,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				955FE2ADDAC2E4E97646BF62 /* Pods_CIPlaygroundUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4372C0BDA7A9067A6D9E47EA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				345FA624B94922AD1DB44E3C /* Pods_CIPlayground.framework */,
+				6D5B40A88546B0E043D219A6 /* Pods_CIPlaygroundTests.framework */,
+				553F8BB0942B33026D1EBDE7 /* Pods_CIPlaygroundUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		ED33A099ACFE5398C771A648 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				95BBF5F28FE4603F8598828D /* Pods-CIPlayground.debug.xcconfig */,
+				12D22704227DEB52A2AF6478 /* Pods-CIPlayground.release.xcconfig */,
+				8492E1A74D7D389E9925E587 /* Pods-CIPlaygroundTests.debug.xcconfig */,
+				2D35407BE1CBCDB9E64A0347 /* Pods-CIPlaygroundTests.release.xcconfig */,
+				D119D8D8B6A85047A1F15BE0 /* Pods-CIPlaygroundUITests.debug.xcconfig */,
+				5A3DBE48E5C2EC2DDC41DD87 /* Pods-CIPlaygroundUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		FF9BBA0A218E1A45004C8939 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +119,8 @@
 				FF9BBA2A218E1A47004C8939 /* CIPlaygroundTests */,
 				FF9BBA35218E1A47004C8939 /* CIPlaygroundUITests */,
 				FF9BBA14218E1A45004C8939 /* Products */,
+				ED33A099ACFE5398C771A648 /* Pods */,
+				4372C0BDA7A9067A6D9E47EA /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -132,9 +172,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FF9BBA3B218E1A47004C8939 /* Build configuration list for PBXNativeTarget "CIPlayground" */;
 			buildPhases = (
+				9A6AEC886A67A80DB1AE0A4F /* [CP] Check Pods Manifest.lock */,
 				FF9BBA0F218E1A45004C8939 /* Sources */,
 				FF9BBA10218E1A45004C8939 /* Frameworks */,
 				FF9BBA11218E1A45004C8939 /* Resources */,
+				196C490E94AD4D71109BC866 /* [CP] Embed Pods Frameworks */,
+				46F9387A5C28407A43902141 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -149,9 +192,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FF9BBA3E218E1A47004C8939 /* Build configuration list for PBXNativeTarget "CIPlaygroundTests" */;
 			buildPhases = (
+				CD03348A076D45D83578AF0A /* [CP] Check Pods Manifest.lock */,
 				FF9BBA23218E1A47004C8939 /* Sources */,
 				FF9BBA24218E1A47004C8939 /* Frameworks */,
 				FF9BBA25218E1A47004C8939 /* Resources */,
+				791EC9E5089A6CC7C479CCC4 /* [CP] Embed Pods Frameworks */,
+				15443D1287EA7A2B918A9B57 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -167,9 +213,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FF9BBA41218E1A47004C8939 /* Build configuration list for PBXNativeTarget "CIPlaygroundUITests" */;
 			buildPhases = (
+				463B2D27BACD5F36DE21260F /* [CP] Check Pods Manifest.lock */,
 				FF9BBA2E218E1A47004C8939 /* Sources */,
 				FF9BBA2F218E1A47004C8939 /* Frameworks */,
 				FF9BBA30218E1A47004C8939 /* Resources */,
+				F2D85768AF3495A523C215A6 /* [CP] Embed Pods Frameworks */,
+				6871671FE543D09BD86029B5 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -250,6 +299,163 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		15443D1287EA7A2B918A9B57 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CIPlaygroundTests/Pods-CIPlaygroundTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		196C490E94AD4D71109BC866 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CIPlayground/Pods-CIPlayground-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		463B2D27BACD5F36DE21260F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CIPlaygroundUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		46F9387A5C28407A43902141 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CIPlayground/Pods-CIPlayground-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6871671FE543D09BD86029B5 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CIPlaygroundUITests/Pods-CIPlaygroundUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		791EC9E5089A6CC7C479CCC4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-CIPlaygroundTests/Pods-CIPlaygroundTests-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Nimble/Nimble.framework",
+				"${BUILT_PRODUCTS_DIR}/Quick/Quick.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Nimble.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Quick.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CIPlaygroundTests/Pods-CIPlaygroundTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9A6AEC886A67A80DB1AE0A4F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CIPlayground-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CD03348A076D45D83578AF0A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CIPlaygroundTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F2D85768AF3495A523C215A6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-CIPlaygroundUITests/Pods-CIPlaygroundUITests-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Nimble/Nimble.framework",
+				"${BUILT_PRODUCTS_DIR}/Quick/Quick.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Nimble.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Quick.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CIPlaygroundUITests/Pods-CIPlaygroundUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		FF9BBA0F218E1A45004C8939 /* Sources */ = {
@@ -430,15 +636,13 @@
 		};
 		FF9BBA3C218E1A47004C8939 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 95BBF5F28FE4603F8598828D /* Pods-CIPlayground.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = T55G7JLVK5;
 				INFOPLIST_FILE = CIPlayground/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.orbitum.CIPlayground;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
@@ -448,15 +652,13 @@
 		};
 		FF9BBA3D218E1A47004C8939 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 12D22704227DEB52A2AF6478 /* Pods-CIPlayground.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = T55G7JLVK5;
 				INFOPLIST_FILE = CIPlayground/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.orbitum.CIPlayground;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
@@ -466,17 +668,14 @@
 		};
 		FF9BBA3F218E1A47004C8939 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8492E1A74D7D389E9925E587 /* Pods-CIPlaygroundTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = T55G7JLVK5;
 				INFOPLIST_FILE = CIPlaygroundTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.orbitum.CIPlaygroundTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
@@ -487,17 +686,14 @@
 		};
 		FF9BBA40218E1A47004C8939 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2D35407BE1CBCDB9E64A0347 /* Pods-CIPlaygroundTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = T55G7JLVK5;
 				INFOPLIST_FILE = CIPlaygroundTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.orbitum.CIPlaygroundTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
@@ -508,16 +704,13 @@
 		};
 		FF9BBA42218E1A47004C8939 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D119D8D8B6A85047A1F15BE0 /* Pods-CIPlaygroundUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = T55G7JLVK5;
 				INFOPLIST_FILE = CIPlaygroundUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.orbitum.CIPlaygroundUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
@@ -528,16 +721,13 @@
 		};
 		FF9BBA43218E1A47004C8939 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5A3DBE48E5C2EC2DDC41DD87 /* Pods-CIPlaygroundUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = T55G7JLVK5;
 				INFOPLIST_FILE = CIPlaygroundUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.orbitum.CIPlaygroundUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
